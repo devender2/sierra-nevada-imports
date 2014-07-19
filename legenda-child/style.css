@@ -1,0 +1,12 @@
+/*
+ Theme Name:   Legenda Child
+ Theme URI:    http://sierranevadaimports.com
+ Description:  A Custom child theme 
+ Author:       Brandon Barringer
+ Author URI:   http://bbarringer.com
+ Template:     legenda
+ Version:      1.0.0
+*/
+
+@import url('../legenda/style.css');
+@import url('base.css');

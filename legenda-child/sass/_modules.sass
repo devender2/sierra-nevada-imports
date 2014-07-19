@@ -1,0 +1,42 @@
+
+//Product container
+.vs2-productList-item 
+	box-sizing: border-box
+	float: none
+	+grid(4)
+	text-align: center
+	height: 400px
+	padding: 0
+	margin-bottom: 1em
+	// Product image container
+	.vs2-productList-image 
+		float: none
+		border-left: 1px solid $grey-light
+		border-top: 1px solid $grey-light
+		border-right: 1px solid $grey-light	
+		width: 100%	
+		img
+			max-width: 100%
+			height: 200px 
+	// Details container
+	.vs2-productList-details 
+		border-left: 1px solid $grey-light
+		border-bottom: 1px solid $grey-light
+		border-right: 1px solid $grey-light
+		width: 100%
+		padding-bottom: 20px
+		height: 45%
+		// Title
+		.vs2-productList-link 
+			font-size: $base-font-size
+
+.vs2-productList-teaser
+	// @extend .visually-hidden
+	display: none
+
+.vs2-productList-quantity-input
+	width: 100px
+	float: none
+
+.vs2-productList-price
+	display: block
