@@ -8,6 +8,10 @@
 	height: 400px
 	padding: 0
 	margin-bottom: 1em
+	+media(max, 750px)
+		+grid(6)
+	+media(max, 550px)
+		+grid(12)
 	// Product image container
 	.vs2-productList-image 
 		float: none
