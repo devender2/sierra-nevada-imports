@@ -23,85 +23,99 @@
 }
 
 /* line 2, sass/_modules.sass */
+.top-bar .top-links {
+  display: none;
+}
+
+/* line 5, sass/_modules.sass */
+.top-bar .container {
+  border-bottom: none;
+}
+
+/* line 9, sass/_modules.sass */
 a[title="login-cart"] {
   pointer-events: none;
   cursor: default;
 }
 
-/* line 6, sass/_modules.sass */
+/* line 13, sass/_modules.sass */
 #vs2-accountLinks {
   pointer-events: auto;
   cursor: pointer;
+  float: right;
+  font-size: 12px;
+  margin: 10px;
 }
-/* line 9, sass/_modules.sass */
+/* line 19, sass/_modules.sass */
 #vs2-accountLinks > span {
-  padding: 3px 35px 3px 0;
+  padding: 3px 10px 3px 0;
 }
-/* line 11, sass/_modules.sass */
+/* line 21, sass/_modules.sass */
 #vs2-accountLinks > span a {
   pointer-events: auto;
   cursor: pointer;
 }
-/* line 14, sass/_modules.sass */
+/* line 24, sass/_modules.sass */
 #vs2-accountLinks > span a:hover {
   text-decoration: none;
 }
 
-/* line 19, sass/_modules.sass */
+/* line 29, sass/_modules.sass */
 [data-vsplugin="account"] {
   text-align: center;
 }
-/* line 21, sass/_modules.sass */
+/* line 31, sass/_modules.sass */
 [data-vsplugin="account"] > form {
   margin: 0 auto;
 }
-/* line 23, sass/_modules.sass */
+/* line 33, sass/_modules.sass */
 [data-vsplugin="account"] > form .vs2x-row > div[class^="vs2x"] {
   margin-left: 25%;
 }
 
-/* line 30, sass/_modules.sass */
+/* line 38, sass/_modules.sass */
 .vs2-productList-item {
   box-sizing: border-box;
   float: none;
   width: 33.33333%;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
   text-align: center;
-  height: 400px;
-  padding: 0;
+  height: 470px;
   margin-bottom: 1em;
+  padding-right: 3em !important;
 }
 @media screen and (max-width: 750px) {
-  /* line 30, sass/_modules.sass */
+  /* line 38, sass/_modules.sass */
   .vs2-productList-item {
     width: 50%;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 30, sass/_modules.sass */
+  /* line 38, sass/_modules.sass */
   .vs2-productList-item {
     width: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
   }
 }
-/* line 43, sass/_modules.sass */
+/* line 51, sass/_modules.sass */
 .vs2-productList-item .vs2-productList-image {
   float: none;
   border-left: 1px solid #ebebeb;
   border-top: 1px solid #ebebeb;
   border-right: 1px solid #ebebeb;
   width: 100%;
+  padding: 20px 0;
 }
-/* line 49, sass/_modules.sass */
+/* line 58, sass/_modules.sass */
 .vs2-productList-item .vs2-productList-image img {
   max-width: 100%;
   height: 200px;
 }
-/* line 53, sass/_modules.sass */
+/* line 62, sass/_modules.sass */
 .vs2-productList-item .vs2-productList-details {
   border-left: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
@@ -110,23 +124,70 @@ a[title="login-cart"] {
   padding-bottom: 20px;
   height: 45%;
 }
-/* line 61, sass/_modules.sass */
+/* line 70, sass/_modules.sass */
 .vs2-productList-item .vs2-productList-details .vs2-productList-link {
-  font-size: 16px;
+  font-size: 21px;
 }
 
-/* line 64, sass/_modules.sass */
+/* line 73, sass/_modules.sass */
+.vs2-productList-sub {
+  padding: 20px 0;
+}
+
+/* line 76, sass/_modules.sass */
 .vs2-productList-teaser {
   display: none;
 }
 
-/* line 68, sass/_modules.sass */
+/* line 80, sass/_modules.sass */
 .vs2-productList-quantity-input {
-  width: 100px;
-  float: none;
+  width: 50px;
+  height: 30px;
+  padding: 0 5px !important;
 }
 
-/* line 72, sass/_modules.sass */
-.vs2-productList-price {
-  display: block;
+/* line 87, sass/_modules.sass */
+.vs2-productDetail-container {
+  margin-top: 30px;
+}
+/* line 89, sass/_modules.sass */
+.vs2-productDetail-container h1 {
+  font-size: 28px;
+}
+/* line 91, sass/_modules.sass */
+.vs2-productDetail-container .vs2-productDetail-image {
+  padding-right: 2em;
+}
+/* line 93, sass/_modules.sass */
+.vs2-productDetail-container .vs2-productDetail-description {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  text-align: justify;
+  -webkit-column-gap: 2.5em;
+  -moz-column-gap: 2.5em;
+  column-gap: 2.5em;
+  -webkit-column-rule: 1px outset #ebebeb;
+  -moz-column-rule: 1px outset #ebebeb;
+  column-rule: 1px outset #ebebeb;
+}
+@media screen and (max-width: 980px) {
+  /* line 93, sass/_modules.sass */
+  .vs2-productDetail-container .vs2-productDetail-description {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    text-align: left;
+  }
+}
+
+/* line 112, sass/_modules.sass */
+.vs2x-form.vs2x-box h2 {
+  font-size: 28px;
+}
+
+/* line 115, sass/_modules.sass */
+#vs2-cart-items .vs2x-row {
+  border-bottom: 1px solid #ebebeb;
+  padding-top: 20px;
 }
