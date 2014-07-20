@@ -127,38 +127,39 @@ a[title="login-cart"] {
 /* line 70, sass/_modules.sass */
 .vs2-productList-item .vs2-productList-details .vs2-productList-link {
   font-size: 21px;
+  margin: 15px;
 }
 
-/* line 73, sass/_modules.sass */
+/* line 74, sass/_modules.sass */
 .vs2-productList-sub {
   padding: 20px 0;
 }
 
-/* line 76, sass/_modules.sass */
+/* line 77, sass/_modules.sass */
 .vs2-productList-teaser {
   display: none;
 }
 
-/* line 80, sass/_modules.sass */
+/* line 81, sass/_modules.sass */
 .vs2-productList-quantity-input {
   width: 50px;
   height: 30px;
   padding: 0 5px !important;
 }
 
-/* line 87, sass/_modules.sass */
+/* line 88, sass/_modules.sass */
 .vs2-productDetail-container {
   margin-top: 30px;
 }
-/* line 89, sass/_modules.sass */
+/* line 90, sass/_modules.sass */
 .vs2-productDetail-container h1 {
   font-size: 28px;
 }
-/* line 91, sass/_modules.sass */
+/* line 92, sass/_modules.sass */
 .vs2-productDetail-container .vs2-productDetail-image {
   padding-right: 2em;
 }
-/* line 93, sass/_modules.sass */
+/* line 94, sass/_modules.sass */
 .vs2-productDetail-container .vs2-productDetail-description {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -172,7 +173,7 @@ a[title="login-cart"] {
   column-rule: 1px outset #ebebeb;
 }
 @media screen and (max-width: 980px) {
-  /* line 93, sass/_modules.sass */
+  /* line 94, sass/_modules.sass */
   .vs2-productDetail-container .vs2-productDetail-description {
     -webkit-column-count: 1;
     -moz-column-count: 1;
@@ -181,12 +182,12 @@ a[title="login-cart"] {
   }
 }
 
-/* line 112, sass/_modules.sass */
+/* line 113, sass/_modules.sass */
 .vs2x-form.vs2x-box h2 {
   font-size: 28px;
 }
 
-/* line 115, sass/_modules.sass */
+/* line 116, sass/_modules.sass */
 #vs2-cart-items .vs2x-row {
   border-bottom: 1px solid #ebebeb;
   padding-top: 20px;
