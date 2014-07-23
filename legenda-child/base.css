@@ -60,7 +60,47 @@ a[title="login-cart"] {
   text-decoration: none;
 }
 
-/* line 29, sass/_modules.sass */
+/* line 28, sass/_modules.sass */
+.my-account-link.hidden-desktop {
+  display: none !important;
+}
+
+/* line 31, sass/_modules.sass */
+div[data-vsplugin="account"] {
+  text-align: center;
+}
+/* line 33, sass/_modules.sass */
+div[data-vsplugin="account"]:before {
+  content: "Account";
+  font-size: 32px;
+  font-family: Georgia, serif;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* line 40, sass/_modules.sass */
+div#vs2-account-nav {
+  margin: 20px 0;
+}
+/* line 42, sass/_modules.sass */
+div#vs2-account-nav > div {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 47, sass/_modules.sass */
+div#vs2-account-nav > div a {
+  color: #cccccc;
+}
+
+/* line 50, sass/_modules.sass */
+.vs2-account-header h2 {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+/* line 55, sass/_modules.sass */
 .vs2-productList-item {
   box-sizing: border-box;
   float: none;
@@ -73,7 +113,7 @@ a[title="login-cart"] {
   padding-right: 3em !important;
 }
 @media screen and (max-width: 750px) {
-  /* line 29, sass/_modules.sass */
+  /* line 55, sass/_modules.sass */
   .vs2-productList-item {
     width: 50%;
     padding-left: 5em;
@@ -81,14 +121,14 @@ a[title="login-cart"] {
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 29, sass/_modules.sass */
+  /* line 55, sass/_modules.sass */
   .vs2-productList-item {
     width: 100%;
     padding-left: 5em;
     padding-right: 5em;
   }
 }
-/* line 42, sass/_modules.sass */
+/* line 68, sass/_modules.sass */
 .vs2-productList-item .vs2-productList-image {
   float: none;
   border-left: 1px solid #ebebeb;
@@ -97,12 +137,12 @@ a[title="login-cart"] {
   width: 100%;
   padding: 20px 0;
 }
-/* line 49, sass/_modules.sass */
+/* line 75, sass/_modules.sass */
 .vs2-productList-item .vs2-productList-image img {
   max-width: 100%;
   height: 200px;
 }
-/* line 53, sass/_modules.sass */
+/* line 79, sass/_modules.sass */
 .vs2-productList-item .vs2-productList-details {
   border-left: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
@@ -111,49 +151,49 @@ a[title="login-cart"] {
   padding-bottom: 20px;
   height: 45%;
 }
-/* line 61, sass/_modules.sass */
+/* line 87, sass/_modules.sass */
 .vs2-productList-item .vs2-productList-details .vs2-productList-link {
   font-size: 21px;
   margin: 15px;
   font-family: Georgia, serif;
 }
 
-/* line 66, sass/_modules.sass */
+/* line 92, sass/_modules.sass */
 .vs2-productList-sub {
   padding: 20px 0;
 }
 
-/* line 69, sass/_modules.sass */
+/* line 95, sass/_modules.sass */
 .vs2-productList-teaser {
   display: none;
 }
 
-/* line 73, sass/_modules.sass */
+/* line 99, sass/_modules.sass */
 .vs2-productList-quantity-input {
   width: 50px;
   height: 30px;
   padding: 0 5px !important;
 }
 
-/* line 80, sass/_modules.sass */
+/* line 106, sass/_modules.sass */
 .vs2-productDetail-container {
   margin-top: 30px;
 }
-/* line 82, sass/_modules.sass */
+/* line 108, sass/_modules.sass */
 .vs2-productDetail-container h1 {
   font-size: 28px;
 }
-/* line 84, sass/_modules.sass */
+/* line 110, sass/_modules.sass */
 .vs2-productDetail-container .vs2-productDetail-image {
   padding-right: 2em;
 }
 @media screen and (max-width: 650px) {
-  /* line 84, sass/_modules.sass */
+  /* line 110, sass/_modules.sass */
   .vs2-productDetail-container .vs2-productDetail-image {
     float: none;
   }
 }
-/* line 88, sass/_modules.sass */
+/* line 114, sass/_modules.sass */
 .vs2-productDetail-container .vs2-productDetail-description {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -167,7 +207,7 @@ a[title="login-cart"] {
   column-rule: 1px outset #ebebeb;
 }
 @media screen and (max-width: 980px) {
-  /* line 88, sass/_modules.sass */
+  /* line 114, sass/_modules.sass */
   .vs2-productDetail-container .vs2-productDetail-description {
     -webkit-column-count: 1;
     -moz-column-count: 1;
@@ -176,12 +216,12 @@ a[title="login-cart"] {
   }
 }
 
-/* line 107, sass/_modules.sass */
+/* line 133, sass/_modules.sass */
 .vs2x-form.vs2x-box h2 {
   font-size: 28px;
 }
 
-/* line 110, sass/_modules.sass */
+/* line 136, sass/_modules.sass */
 #vs2-cart-items .vs2x-row {
   border-bottom: 1px solid #ebebeb;
   padding-top: 20px;

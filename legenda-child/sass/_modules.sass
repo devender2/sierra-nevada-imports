@@ -25,6 +25,32 @@ a[title="login-cart"]
 				text-decoration: none
 
 
+.my-account-link.hidden-desktop 
+	display: none !important
+
+div[data-vsplugin="account"]
+	text-align: center
+	&:before
+		content: 'Account'
+		font-size: 32px
+		font-family: Georgia, serif
+		color: #000
+		margin-bottom: 20px
+
+div#vs2-account-nav
+	margin: 20px 0
+	> div 
+		display: inline-block
+		margin-left: 30px
+		font-size: 12px
+		text-transform: uppercase
+		a 
+			color: #ccc
+
+.vs2-account-header h2
+	font-size: 24px
+	text-transform: capitalize
+
 //Product container
 .vs2-productList-item 
 	box-sizing: border-box
